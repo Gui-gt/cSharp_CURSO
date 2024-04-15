@@ -1,7 +1,12 @@
 using System;
 
-class Principal {
-    static void Main () {
-        console.write("Hello Word!");
+namespace cshapp
+{
+    public class Program
+    {
+        static void Main (string[] args) 
+        {
+            Console.Write("Eu te amo Giovana <3");
+        }
     }
-};
+}
