@@ -1,5 +1,7 @@
+using System;
+
 class Principal{
     static void Main(){
-        Console.write("Olá mundo");
+        console.write("Olá mundo");
     }
 }
