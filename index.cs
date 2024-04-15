@@ -1,1 +1,1 @@
-using System; //
+using System; //comando using, indicando que quero usar a biblioteca sistema que possui os comandos basicos de entrada e saida, para impressao, leitura do teclado, console, gerenciamento de variaveis
