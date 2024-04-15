@@ -1,0 +1,15 @@
+C:\Users\30755\OneDrive\Área de Trabalho\estudos\Cursos\cSharp_CURSO\bin\Debug\net7.0\cSharp_CURSO.exe
+C:\Users\30755\OneDrive\Área de Trabalho\estudos\Cursos\cSharp_CURSO\bin\Debug\net7.0\cSharp_CURSO.deps.json
+C:\Users\30755\OneDrive\Área de Trabalho\estudos\Cursos\cSharp_CURSO\bin\Debug\net7.0\cSharp_CURSO.runtimeconfig.json
+C:\Users\30755\OneDrive\Área de Trabalho\estudos\Cursos\cSharp_CURSO\bin\Debug\net7.0\cSharp_CURSO.dll
+C:\Users\30755\OneDrive\Área de Trabalho\estudos\Cursos\cSharp_CURSO\bin\Debug\net7.0\cSharp_CURSO.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\estudos\Cursos\cSharp_CURSO\obj\Debug\net7.0\cSharp_CURSO.csproj.AssemblyReference.cache
+C:\Users\30755\OneDrive\Área de Trabalho\estudos\Cursos\cSharp_CURSO\obj\Debug\net7.0\cSharp_CURSO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\30755\OneDrive\Área de Trabalho\estudos\Cursos\cSharp_CURSO\obj\Debug\net7.0\cSharp_CURSO.AssemblyInfoInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\estudos\Cursos\cSharp_CURSO\obj\Debug\net7.0\cSharp_CURSO.AssemblyInfo.cs
+C:\Users\30755\OneDrive\Área de Trabalho\estudos\Cursos\cSharp_CURSO\obj\Debug\net7.0\cSharp_CURSO.csproj.CoreCompileInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\estudos\Cursos\cSharp_CURSO\obj\Debug\net7.0\cSharp_CURSO.dll
+C:\Users\30755\OneDrive\Área de Trabalho\estudos\Cursos\cSharp_CURSO\obj\Debug\net7.0\refint\cSharp_CURSO.dll
+C:\Users\30755\OneDrive\Área de Trabalho\estudos\Cursos\cSharp_CURSO\obj\Debug\net7.0\cSharp_CURSO.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\estudos\Cursos\cSharp_CURSO\obj\Debug\net7.0\cSharp_CURSO.genruntimeconfig.cache
+C:\Users\30755\OneDrive\Área de Trabalho\estudos\Cursos\cSharp_CURSO\obj\Debug\net7.0\ref\cSharp_CURSO.dll
