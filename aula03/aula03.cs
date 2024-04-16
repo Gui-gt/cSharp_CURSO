@@ -9,7 +9,7 @@ class aula03
 
         num1 = 10;
         num2 = 2;
-        res = num1 * num2;
+        res = num1  num2;
 
 
         byte n1 = 10;
@@ -22,5 +22,23 @@ class aula03
 
             Console.WriteLine("Valor da variavel: "+aux+ "...");
             Console.WriteLine("A multiplicação de "+ num1 +" com "+ num2 +" é igual a: " + res);
+            using System;
+
+namespace somas
+{
+    public class Program
+    {
+        static void Main () 
+        {
+            int n1,n2,res;
+
+            n1=1;
+            n2=2;
+            res = n1+n2;
+
+            Console.Write("O valor "+n1+" mais "+n2+" é "+res);
+        }
+    }
+}
     }
 }
