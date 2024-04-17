@@ -122,3 +122,32 @@ namespace program
         }
     }
 }
+using System;
+
+namespace program
+{
+    public class Program
+    {
+        static void Main ()
+        {
+            int num = 10;
+
+            num=num>>1;//BITWISE //ELE DOBRA A MAIS E TIRA A METADE DE UM VALOR
+
+            Console.Write(num);
+        }
+    }
+}
+using System;
+
+class Program
+{
+    enum DiasSemana{Domingo,segunda,terça,quarta,quinta,sexta,sábado};
+
+    static void Main ()
+    {
+        DiasSemana ds = (DiasSemana)3;
+
+        Console.Write(ds);
+    }
+}
