@@ -45,4 +45,25 @@ namespace Program
             Console.Write("Canal {0} \n Pi {1}",nome,pi);
         }
     }
+}using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main ()
+        {
+            int v1,v2,soma;
+            
+
+        Console.Write("Digite o primeiro Valor:");
+        v1=int.Parse (Console.ReadLine());
+        Console.Write("Digite o segundo Valor:");
+        v2=int.Parse(Console.ReadLine());
+        soma= v1+v2;
+        Console.WriteLine("A soma entre {0} e {1} é {2}",v1,v2,soma);
+
+        
+        }
+    }
 }
