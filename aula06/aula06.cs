@@ -66,4 +66,22 @@ namespace Program
         
         }
     }
+}using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main ()
+        {
+            int n1,n2,soma;
+
+            Console.Write("Digite o primeiro valor: ");
+            n1=int.Parse(Console.ReadLine());
+            Console.Write("Digite o segundo Valor: ");
+            n2=int.Parse(Console.ReadLine());
+            soma = n1 + n2;
+            Console.WriteLine("A soma entre {0} e {1} é igual a: {2}!!!",n1,n2,soma);
+        }
+    }
 }
