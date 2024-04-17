@@ -32,4 +32,17 @@ namespace CSHARP_CURSO
             Console.Write("Val.Venda.....{0,15:c}",venda);
         }
     }
+}using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main ()
+        {
+            const string nome = "Guilherme";//Usando constantes e formatando Textos
+            const double pi = 1.654;
+            Console.Write("Canal {0} \n Pi {1}",nome,pi);
+        }
+    }
 }
