@@ -151,3 +151,15 @@ class Program
         Console.Write(ds);
     }
 }
+using System;
+
+class Program
+{
+    static void Main ()
+    {
+        int n1 = 10;
+        float n2 = n1; ///Conversão implicita e segura
+
+        Console.Write(n2);
+    }
+}
