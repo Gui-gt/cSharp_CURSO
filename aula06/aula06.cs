@@ -206,3 +206,33 @@ class Program
         Console.Write("Resultado: {0} ",resultado);
     }
 }
+using System;
+
+class Program
+{
+    static void Main ()
+    {
+        int n1,n2,n3,n4,res;
+        res=n1=n2=n3=n4=0;
+        string resultado = "REPROVADO";
+
+        Console.Write("Digite a primeira nota: ");
+        n1=int.Parse(Console.ReadLine());
+
+        Console.Write("Digite a segunda nota: ");
+        n2=int.Parse(Console.ReadLine());
+
+        Console.Write("Digite a terceira nota: ");
+        n3=int.Parse(Console.ReadLine());
+
+        Console.Write("Digite a quarta nota: ");
+        n4=int.Parse(Console.ReadLine());
+
+        res=n1+n2+n3+n4;
+
+        if(res >= 60){
+            resultado = "Aprovado";
+        }
+        Console.Write("Resultado: {0} ",resultado);
+    }
+}
