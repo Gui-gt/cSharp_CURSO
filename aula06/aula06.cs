@@ -329,3 +329,60 @@ namespace program
         }
     }
 }
+using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main ()
+        {
+            int nota,res = 0;
+
+            Console.Write("Digite a nota:");
+            nota = int.Parse(Console.ReadLine());
+
+            res = nota;
+
+            if(res >= 60){
+                Console.Write("APROVADO");
+                else{
+            if (res >=90){
+                    Console.Write("SUPER APROVADO");
+                }
+                }
+            }else{
+                Console.Write("REPROVADO");
+            }
+        }
+    }
+}
+using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main ()
+        {
+            int nota,soma=0;
+            string resultado = "APROVADO";
+
+            Console.Write("Digite a nota:");
+            nota=int.Parse(Console.ReadLine());
+
+            soma = nota;
+
+            if(soma >= 60)
+            {
+                resultado = "APROVADO";
+            }
+            else
+            {
+                resultado = "REPROVADO";
+            }
+
+            Console.Write("Nota {0}",soma);
+        }
+    }
+}
