@@ -306,3 +306,26 @@ class Program
         Console.Write("NOTA {0}  Resultado: {1} ",res,resultado);
     }
 }
+using System;
+
+namespace program
+{
+    public class Program
+    {
+        static void Main ()
+        {
+            int nota = 0;
+            string resultado;
+
+            Console.WriteLine("Digite a nota: ");
+            nota=int.Parse(Console.ReadLine());
+            if(nota >= 60){
+                resultado = "aprovado";
+            }
+            else{
+                resultado = "REPROVADO";
+            }
+            Console.WriteLine("VC FOI {1} ",resultado);
+        }
+    }
+}
