@@ -553,3 +553,25 @@ namespace Program
         }
     }
 }
+using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main (){
+            /*int n1,n2,n3,n4,n5;*/
+            int[] n=new int[5];//ARRAY/VETOR
+            int[] num=new int[3]{87,45,63};
+            string[] carros= new string[3]{"Ferrari","Lamborghini","Aventador"};//ARRAYS UNIDIMENCIONAIS
+
+            n[0] = 11;
+            n[1] = 22;
+            n[2] = 33;
+            n[3] = 44;
+            n[4] = 55;
+
+                    Console.Write(carros[2]);
+        }
+    }
+}
