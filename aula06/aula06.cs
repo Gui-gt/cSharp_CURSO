@@ -386,3 +386,41 @@ namespace Program
         }
     }
 }
+using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main ()
+        {
+            int nota,soma=0;
+            string resultado = "APROVADO";
+
+            Console.Write("Digite a nota:");
+            nota=int.Parse(Console.ReadLine());
+
+            soma = nota;
+
+            if(soma >= 60)
+            {
+                if(soma >= 90){
+                    resultado = "SUPER BEM, APROVADO";
+                }
+                else{
+                    resultado = "APROVADO";
+                }
+            }
+            else
+            {
+                if(soma>= 40){
+                    resultado = "recupeção";
+                }
+                else{
+                    resultado = "REPROVADO";
+                }
+                
+            }
+            Console.Write("Nota {0} {1}",soma,resultado);
+        }
+    }
