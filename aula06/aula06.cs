@@ -175,3 +175,34 @@ class Program
         Console.Write(n2);
     }
 }
+using System;
+
+class Program
+{
+    static void Main ()
+    {
+        int nota = 70;
+        string resultado = "REPROVADO";
+        
+
+        if(nota >= 60){
+            resultado = "Aprovado";
+        }
+        Console.Write("Resultado: {0} ",resultado);
+    }
+}using System;
+
+class Program
+{
+    static void Main ()
+    {
+        int nota = 70;
+        string resultado = "REPROVADO";
+        
+
+        if(nota >= 60){
+            resultado = "Aprovado";
+        }
+        Console.Write("Resultado: {0} ",resultado);
+    }
+}
