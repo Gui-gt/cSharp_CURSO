@@ -575,3 +575,33 @@ namespace Program
         }
     }
 }
+using System;
+
+namespace cccc
+{
+    public class Program
+    {
+        static void Main ()
+        {
+            int n1,n2,n3,n4,nota=0;
+
+            Console.Write("Digite um valor:");
+            n1=int.Parse(Console.ReadLine());
+            Console.Write("Digite um valor:");
+            n2=int.Parse(Console.ReadLine());
+            Console.Write("Digite um valor:");
+            n3=int.Parse(Console.ReadLine());
+            Console.Write("Digite um valor:");
+            n4=int.Parse(Console.ReadLine());
+
+            nota=n1+n2+n3+n4;
+
+            if(nota >= 60){
+                Console.Write("nota {0} Aprovado",nota);
+            }
+            else{
+                Console.Write("Reprovado");
+            }
+        }
+    }
+}
