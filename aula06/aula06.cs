@@ -604,4 +604,71 @@ namespace cccc
             }
         }
     }
+}using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Data.OleDb;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using MySql.Data.MySqlClient;
+
+namespace Cadastro.Elo.Csharp
+{
+    public partial class FrmMenuPessoas : Form
+    {
+        public FrmMenuPessoas()
+        {
+            InitializeComponent();
+        }
+
+        private void BtAdd_Click(object sender, EventArgs e)
+        {
+            Form1 frm = new Form1();
+
+            frm.ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string caminhoArquivo = @"C: \Users\30755\source\repos\Cadastro.Elo.Csharp\dadosClientes.json";
+
+            string conteudoJson = System.IO.File.ReadAllText(caminhoArquivo);
+
+
+            dynamic objetoJson = Newtonsoft.Json.JsonConvert.DeserializeObject(conteudoJson);
+
+
+            string comandoSql = "INSERT INTO pessoas (nome, documento, endereco) " +
+                                            "VALUES (@nome, @documento, @endereco)";
+
+            using (MySqlConnection Conexao = new MySqlConnection("Server=127.0.0.1;Port=3306;Database=base_pessoas;User=root;Password=")) 
+            {
+                Conexao.Open();
+
+                foreach (var item in objetoJson)
+                {
+                    using (MySqlCommand cmd = Conexao.CreateCommand())
+                    {
+                        cmd.CommandText = comandoSql;
+
+                        cmd.Parameters.AddWithValue("@nome", item.nome.ToString());
+                        cmd.Parameters.AddWithValue("@documento", item.documento.ToString());
+                        cmd.Parameters.AddWithValue("@endereco", item.endereco.ToString());
+
+                        cmd.ExecuteNonQuery();
+
+                    }
+                }
+            }
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            DgLista.DataSource = Funcoes.BuscaSQL("SELECT * FROM pessoas");
+        }
+    }
 }
