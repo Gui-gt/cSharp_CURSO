@@ -32,3 +32,16 @@ namespace program
         }
     }
 }
+//criando um array
+
+using System;
+
+namespace program
+{
+    public class Program
+    {
+        static void Main (){
+            int[] new carros
+        }
+    }
+}
