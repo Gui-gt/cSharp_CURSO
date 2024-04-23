@@ -1,23 +1,23 @@
-﻿using System;
-namespace program
+using System;// Biblioteca
+namespace program//nome do diretorio
 {
-    public class Program
+    public class Program//classe publica
     {
-        static void Main () {
-            int tempo = 0;
-            char escolha;
+        static void Main () {//vazio estatico
+            int tempo = 0;//tipo inteiro
+            char escolha;//letras
 
 
             inicio:
 
-            Console.Clear();
+            Console.Clear();//limpa o programa
 
-            Console.Write("Viagem para Belo Horizonte/MG a Vitoria/ES");
-            Console.Write("Escolha o meio de trasnporte: [A] AVIÃO  [C] CARRO  [O] ONIBUS");
-            escolha = char.Parse(Console.ReadLine());
+            Console.Write("Viagem para Belo Horizonte/MG a Vitoria/ES");//string
+            Console.Write("Escolha o meio de trasnporte: [A] AVIÃO  [C] CARRO  [O] ONIBUS");//escolhas
+            escolha = char.Parse(Console.ReadLine());//colocando qual vai ser o tipo que vai ser digitado
             switch(escolha) 
             {
-                case 'a':
+                case 'a':           
                 case 'A':
                 tempo=50;
                 break;
