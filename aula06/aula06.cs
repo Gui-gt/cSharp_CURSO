@@ -605,3 +605,37 @@ namespace cccc
         }
     }
 }
+using System;
+
+namespace program
+{
+    public class Program
+    {
+        static void Main () 
+        {
+            int n1,soma=0;
+
+            Console.Write("Digite a primeira nota: ");
+            n1=int.Parse(Console.ReadLine());
+
+            soma=n1;
+
+            Console.Write("Calculando pontos...");
+
+            if(soma >= 60){
+                if(soma >= 90){
+                    Console.WriteLine("HARVARD");
+                }else{
+                    Console.WriteLine("APROVADO NORMAL");
+                }
+            }else{
+                if(soma > 40){
+                    Console.WriteLine("RECUPERAÇÃO");
+                }else{
+                    Console.Write("REPROVADO");
+                }
+            }
+
+        }
+    }
+}
