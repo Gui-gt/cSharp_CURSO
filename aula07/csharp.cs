@@ -336,3 +336,23 @@ namespace cccccc
         }
     }
 }
+using System;
+
+namespace cccccc
+{
+    public class Program
+    {
+        static void Main()
+        {       int[] num = new int[10];
+            for (int i = 0;i<10;i++)
+            {
+                    Console.Write(num[i]);
+            }
+            for (int i = 0;i<10;i++)
+            {
+                    Console.Write("Posição do valor {0}: {1}\n",i,num[i]);
+
+            }
+        }
+    }
+}
