@@ -180,3 +180,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System;
+
+namespace vvv
+{
+    public class Program
+    {
+        static void Main ()
+        {
+            int n1,n2,nota=0;
+
+            Console.Write("Digite um valor: ");
+            n1=int.Parse(Console.ReadLine());
+            Console.Write("Digite um valor: ");
+            n2=int.Parse(Console.ReadLine());
+
+            nota=n1+n2;
+
+            if(nota < 60){
+                Console.Write("NOTA {0},REPROVADO",nota);
+            }
+            else if(nota >= 60){
+                Console.Write("Nota {0}, APROVADO",nota);
+            }
+        }
+    }
+}
