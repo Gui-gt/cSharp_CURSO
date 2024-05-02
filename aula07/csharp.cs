@@ -206,3 +206,59 @@ namespace vvv
         }
     }
 }
+using System;
+
+namespace vvv
+{
+    public class Program
+    {
+        static void Main () 
+        {
+            int tempo = 0;
+            char escolha;
+
+            inicio:
+
+            Console.Clear();
+
+            Console.Write("Viagem de rolandia para londrina. \n");
+            Console.Write("Escolha seu meio de transporte \n A) CORRENDO \n B) BICICLETA");
+            escolha=char.Parse(Console.ReadLine());
+
+            switch (escolha)
+            {
+
+                case 'a':
+                case 'A':
+                tempo=300;
+                break;
+                case 'b':
+                case 'B':
+                tempo=100;
+                break;
+                default:
+                tempo=0;
+                break;
+            }
+
+            if(tempo == 100){
+                Console.Write("Vc escolheu bicicleta, 100 minutos. ");
+            }
+            else if(tempo == 300){
+                Console.Write("Vc escolheu correndo, 300 minutos. ");
+            }
+
+            Console.Write("Deseja continuar? S/N");
+            escolha=char.Parse(Console.ReadLine());
+
+            if(escolha == 's' || escolha == 'S'){
+                goto inicio;
+            }else{
+                Console.Clear();
+                Console.WriteLine("FIM DO PROGRAMA");
+            }
+
+
+        }
+    }
+}
