@@ -283,3 +283,18 @@ namespace cccccc
         }
     }
 }
+using System;
+using System.Globalization;
+
+namespace cccccc
+{
+    public class Program
+    {
+        static void Main ()
+        {
+        int[] num ={1,2};
+
+        Console.Write(num[1]);
+        }
+    }
+}
