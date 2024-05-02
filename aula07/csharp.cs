@@ -262,3 +262,24 @@ namespace vvv
         }
     }
 }
+using System;
+
+namespace cccccc
+{
+    public class Program
+    {
+        static void Main()
+        {
+            
+            int[] n=new int[3];
+            int[] num=new int[3]{55,77,88};
+            int[] nume = {55,77,88};
+
+            n[0]=111;
+            n[1]=222;
+            n[2]=333;
+
+            Console.Write(n[0]);
+        }
+    }
+}
