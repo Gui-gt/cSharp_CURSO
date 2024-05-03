@@ -371,3 +371,20 @@ namespace Program
         }
     }
 }
+using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main ()
+        {
+            int n = 0;
+            while (n < 10)
+            {
+                Console.Write("Push! \n");
+                n++;
+            }
+        }
+    }
+}
