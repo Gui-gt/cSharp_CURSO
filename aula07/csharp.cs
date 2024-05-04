@@ -610,3 +610,28 @@ namespace Program
         }
     }   
 }
+using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main (){
+            
+            string senha = "123";
+            string usersenha;
+            int tentativas = 0;
+
+            do
+            {
+                Console.Clear();
+                Console.Write("Digite seua senha:");
+                usersenha = Console.ReadLine();
+                tentativas++;
+            } while (senha != usersenha);
+
+            Console.Clear();
+            Console.Write("Senha correta, tentativas {0}",tentativas);
+        }
+    }
+}
