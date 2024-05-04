@@ -656,3 +656,20 @@ namespace Program
         }
     }
 }
+using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main()
+        {
+            int[] num = new int[5]{11,22,33,44,55};
+
+            foreach (int n in num)
+            {
+                Console.Write(n);
+            }
+        }
+    }
+}
