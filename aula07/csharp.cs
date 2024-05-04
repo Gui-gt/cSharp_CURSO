@@ -405,4 +405,21 @@ namespace program
             }
         }
     }
+}using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main()
+        {
+            int[] num = new int[10];
+            int i = num.Length-1;
+            while (i > 0)
+            {
+                Console.WriteLine(num[i]);
+                i--;
+            }
+        }
+    }
 }
