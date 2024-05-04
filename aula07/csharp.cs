@@ -406,7 +406,6 @@ namespace program
         }
     }
 }using System;
-
 namespace Program
 {
     public class Program
@@ -419,6 +418,20 @@ namespace Program
             {
                 Console.WriteLine(num[i]);
                 i--;
+            }
+        }
+    }
+}
+using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main()
+        {
+            for (int n = 0;n < 5;n++){
+                Console.Write("Te amo Giovana! \n");
             }
         }
     }
