@@ -505,4 +505,26 @@ namespace Program
             Console.Write("Senha correta, tentativas {0}",tentativas);
         }
     }
+}using System;
+namespace Program
+{
+    public class Program
+    {
+        static void Main ()
+        {
+            string senha = "123";
+            string senhauser;
+            int tentativas = 0;
+
+            do
+            {
+                Console.Clear();
+                Console.Write("Digite sua senha: ");
+                senhauser = Console.ReadLine();
+                tentativas++;
+            } while (senha != senhauser);
+            Console.Clear();
+            Console.WriteLine("Senha correta, tentativas {0}...",tentativas);
+        }
+    }
 }
