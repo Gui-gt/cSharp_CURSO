@@ -673,3 +673,20 @@ namespace Program
         }
     }
 }
+using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main()
+        {
+            int[] num = new int[2]{11,22};
+
+            for(int z = 0;z<num.Length;z++)
+            {
+                    Console.Write(num[z]);
+            }
+        }
+    }
+}
