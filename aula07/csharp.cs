@@ -528,3 +528,28 @@ namespace Program
         }
     }
 }
+using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main()
+        {
+            int n1,n2,nota=0;
+
+            Console.Write("Digite a primeira nota: ");
+            n1=int.Parse(Console.ReadLine());
+            Console.Write("Digite a segunda nota:");
+            n2= int.Parse(Console.ReadLine());
+            
+            nota = n1 + n2; 
+
+            if(nota < 60){
+                Console.Write("REPROVADO");
+            }else if(nota > 60){
+                Console.Write("{0} APROVADO",nota);
+            }
+        }
+    }
+}
