@@ -690,3 +690,20 @@ namespace Program
         }
     }
 }
+using System;
+using System.IO.Compression;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main()
+        {
+            int[] num = new int[2]{11,22};
+            
+        foreach(int z in num){
+            Console.Write(z);
+        }
+        }
+    }
+}
