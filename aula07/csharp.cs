@@ -735,3 +735,60 @@ namespace program
         }
     }
 }
+using System;
+
+namespace program
+{
+    public class Program
+    {
+        static void Main ()
+        {
+            int tempo = 0;
+            char escolha;
+
+            inicio:
+
+            Console.Write(">>>VIAGEM DE ROLANDIA PARA LONDRINA<<<\n");
+            Console.Write("Escolha seu meio de transporte:\n A) CARRO B) MOTO");
+            escolha = char.Parse(Console.ReadLine());
+
+            switch (escolha)
+            {
+                case 'A':
+                case 'a':
+                tempo=50;
+                break;
+
+                case 'b':
+                case 'B':
+                tempo = 30;
+                break;
+                
+                default:
+
+                tempo = 0;
+
+                break;
+            }
+
+            if(tempo == 50){
+                Console.Write("Vc escolheu ir de carro, levara 50 minutos");
+            }
+            else if(tempo == 30){
+                Console.Write("Vc escolheu ir de moto, levara 30 minutos");
+            }
+
+            Console.Write("\n Deseja continuar: S/N?");
+            escolha=char.Parse(Console.ReadLine());
+
+            if(escolha == 's' || escolha == 'S'){
+                Console.Clear();
+                goto inicio;
+            }
+            else if(escolha == 'n' || escolha == 'N'){
+                Console.Clear();
+                Console.Write("<<<FIM DA EXECUÇÃO>>>");
+            }
+        }
+    }
+}
