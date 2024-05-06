@@ -792,3 +792,20 @@ namespace program
         }
     }
 }
+using System;
+
+namespace program
+{
+    public class Program
+    {
+        static void Main ()
+        {
+            int[] num = new int[3]{10,21,45};
+
+            Console.Write(num[1]);
+
+
+        }
+
+    }
+}
