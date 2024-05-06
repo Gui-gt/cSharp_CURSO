@@ -707,3 +707,31 @@ namespace Program
         }
     }
 }
+using System;
+
+namespace program
+{
+    public class Program
+    {
+        static void Main ()
+        {
+            int n1,n2,nota=0;
+
+            Console.WriteLine("Digite a primeira nota: ");
+            n1=int.Parse(Console.ReadLine());
+            Console.Write("Digite o segundo valor: ");
+            n2=int.Parse(Console.ReadLine());
+
+            nota = n1 + n2;
+
+            Console.Write("A nota foi {0}",nota);
+
+            if(nota > 60){
+                Console.Write(", Parabens vc foi aprovado!");
+            }
+            else if(nota < 60){
+                Console.Write("HORRIVEL, REPROVADO!!!");
+            }
+        }
+    }
+}
