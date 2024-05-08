@@ -809,3 +809,34 @@ namespace program
 
     }
 }
+using System;
+
+namespace program
+{
+    public class Program
+    {
+        static void Main ()
+        {
+            int n1,n2,nota=0;
+
+            Console.WriteLine("<<<Avaliação de notas>>>");
+            Console.WriteLine("Digite a primeira nota abaixo:");
+            n1=int.Parse(Console.ReadLine());
+            Console.WriteLine("Agora a segunda nota");
+            n2=int.Parse(Console.ReadLine());
+
+            nota = n1+n2;
+
+            if(nota <= 60){
+                Console.Write("Nota {0}, Aluno Reprovado",nota);
+                if(nota >= 50){
+                    Console.WriteLine("Nota {0},Aluno de recuperação",nota);
+                }
+            }
+            else if(nota > 60){
+                Console.Write("Nota {0}, aluno aprovado",nota);
+            }
+
+        }
+    }
+}
