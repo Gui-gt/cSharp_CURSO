@@ -917,3 +917,18 @@ namespace program
         }
     }
 }
+using System;
+
+namespace program
+{
+    public class Program
+    {
+        static void Main ()
+        {
+        for(int n = 0;n < 10;n++){
+            Console.WriteLine("TE AMO GIOVANA <3");
+        }
+
+        }
+    }
+}
