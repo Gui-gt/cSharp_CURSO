@@ -932,3 +932,7 @@ namespace program
         }
     }
 }
+ using (MySqlConnection connection = new MySqlConnection("Server=127.0.0.1;Port=3306;Database=base_pessoas;User=root;Password="))
+ {
+     SqlCommand sql = new SqlCommand("SELECT nome, documento, Número, endereco FROM pessoas WHERE nome LIKE @nome ", FrmMenuPessoas.)
+ }
