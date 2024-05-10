@@ -109,3 +109,15 @@ namespace program
             }
     }
 }
+using System;
+
+namespace program
+{
+    public class  Program
+    {
+        static void Main ()
+        {
+            int[] num = new int[3]{11,22,33};
+        }
+    }
+}
