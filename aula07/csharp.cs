@@ -121,3 +121,4 @@ namespace program
         }
     }
 }
+ Console.Write(num[2]);
