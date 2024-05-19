@@ -116,3 +116,22 @@ namespace Program
         }
     }
 }
+using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main ()
+        {
+            cola(10,4);
+        }
+        static void cola(int n1, int n2)
+        {
+            int soma;
+            soma = n1 + n2;
+            
+            Console.WriteLine("A soma entre {0} e {1} é: {2}",n1,n2,soma);
+        }
+    }
+}
