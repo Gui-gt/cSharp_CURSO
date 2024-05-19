@@ -39,4 +39,22 @@ namespace Program
             return res;
         }
     }
+}using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main()
+        {
+        soma(10,8);
+        }
+
+        static void soma(int n1, int n2)
+        {
+            int soma = n1 + n2;
+
+            Console.WriteLine("A soma entre {0} e {1} é {2}",n1,n2,soma);
+        }
+    }
 }
