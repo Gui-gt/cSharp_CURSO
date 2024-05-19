@@ -58,3 +58,22 @@ namespace Program
         }
     }
 }
+using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main()
+        {
+            for(int i = 0;i <= 3;i++){
+                cfb();
+            }
+        }
+
+        static void cfb()
+        {
+            Console.WriteLine("Olá mundo!");
+        }
+    }
+}
