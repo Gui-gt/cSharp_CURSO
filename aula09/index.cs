@@ -77,3 +77,20 @@ namespace Program
         }
     }
 }
+using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main()
+        {
+            cfb();
+        }
+
+        static void cfb()
+        {
+            Console.WriteLine("Olá mundo!");
+        }
+    }
+}
