@@ -97,3 +97,22 @@ namespace Program
 // See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 Console.WriteLine("deixa o cara gozar");
+using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main ()
+        {
+            cola();
+        }
+        static void cola()
+        {
+            for(int i = 0;i < 10;i++){
+                Console.WriteLine("FAÇA");
+            }
+            
+        }
+    }
+}
