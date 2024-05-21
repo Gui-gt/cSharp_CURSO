@@ -177,3 +177,35 @@ namespace Program
         }
     }
 }
+using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main()
+        {
+            char escolha;
+            int tempo = 0;
+
+            Console.WriteLine("<<< Viagem de rolandia para Londrina >>>");
+            Console.WriteLine("Escolha um meio de transporte");
+            Console.WriteLine("A) moto");
+            Console.WriteLine("B) carro");
+            escolha = char.Parse(Console.ReadLine());
+
+            switch(escolha)
+            {
+                case 'a':
+                case 'A':
+                tempo = 20;
+                break;
+
+                case 'b':
+                case 'B':
+                tempo = 50;
+                break;
+            }
+        }
+    }
+}
