@@ -156,3 +156,24 @@ namespace Program
         }
     }
 }
+using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main()
+        {
+            resultado(20,12);
+        }
+
+        static void resultado(int n1, int n2)
+        {
+            int soma =0;
+
+            soma = n1 + n2;
+
+            Console.WriteLine("{0} mais {1} é {2}",n1,n2,soma);
+        }
+    }
+}
