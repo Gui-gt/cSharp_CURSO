@@ -400,3 +400,17 @@ namespace Program
         }
     }
 }
+using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main()
+        {
+            int n1 = 30;
+
+            Console.WriteLine(n1);
+        }
+    }
+}
