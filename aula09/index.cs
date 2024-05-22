@@ -452,3 +452,49 @@ namespace Program
         }
     }
 }
+using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main()
+        {
+            int tempo = 0;
+            char escolha;
+
+            Console.WriteLine("<<< Viagem de Rolândia para Londrina >>>");
+            Console.WriteLine("Escolha seu meio de transporte:");
+            Console.WriteLine("A) carro");
+            escolha = char.Parse(Console.ReadLine());
+            Console.WriteLine("B) moto");
+            escolha = char.Parse(Console.ReadLine());
+
+            
+
+            switch(escolha){
+
+                    case 'a':
+                    case 'A':
+                    tempo = 30;
+                    break;
+
+                    case 'B':
+                    case 'b':
+                    tempo = 20;
+                    break;
+
+                    default:
+                    tempo = -1;
+                    break;
+            }
+
+            if(tempo == 30){
+                Console.WriteLine("Voçê escolheu ir de carro, cerca de 30 minutos até o seu destino...");
+            }
+            else if(tempo == 20){
+                Console.WriteLine("Voçê escolheu ir de moto, cerca de 20 minutos até o seu destino...");
+            }
+        }
+    }
+}
