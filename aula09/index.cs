@@ -430,3 +430,25 @@ namespace Program
         }
     }
 }
+using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main()
+        {
+            int n1,n2,soma;
+
+            Console.WriteLine("<<< Notas da escola >>>");
+            Console.WriteLine("Digite a primeira nota");
+            n1=int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite a segunda nota");
+            n2=int.Parse(Console.ReadLine());
+
+            soma = n1 + n2;
+
+            Console.WriteLine("NOTA {0}",soma);
+        }
+    }
+}
