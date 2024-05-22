@@ -631,3 +631,15 @@ namespace Program
         }
     }
 }
+using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main()
+        {
+            string[] macacos = new string[]{'cesar','lula','bolsonaror'};
+        }
+    }
+}
