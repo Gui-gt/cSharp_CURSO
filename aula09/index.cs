@@ -643,3 +643,21 @@ namespace Program
         }
     }
 }
+using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main()
+        {
+            lula();
+        }
+
+        static void lula() 
+        {
+            Console.WriteLine("Lula é ladrão?");
+            Console.WriteLine("S OU N ?");
+        }
+    }
+}
