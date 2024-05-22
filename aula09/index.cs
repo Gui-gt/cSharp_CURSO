@@ -388,3 +388,15 @@ namespace Program
         }
     }
 }
+using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main()
+        {
+            Console.WriteLine("Hello Word");
+        }
+    }
+}
