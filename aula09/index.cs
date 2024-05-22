@@ -414,3 +414,19 @@ namespace Program
         }
     }
 }
+using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main()
+        {
+            int n1= 10, n2=20, soma = 0;
+
+            Console.WriteLine("SOMA DAS NOTAS");
+            soma = n1 + n2;
+            Console.WriteLine("{0} + {1} = {2}",n1,n2,soma);
+        }
+    }
+}
