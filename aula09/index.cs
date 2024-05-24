@@ -800,3 +800,17 @@ namespace Program
 
     }
 }
+using System;
+
+namespace program
+{
+    public class Program
+    {
+        static void Main ()
+        {
+            int[] números = new int[3]{11,22,33};
+
+            Console.WriteLine(números[1]);
+        }
+    }
+}
