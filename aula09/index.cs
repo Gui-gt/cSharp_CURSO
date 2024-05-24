@@ -661,3 +661,22 @@ namespace Program
         }
     }
 }
+using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main()
+        {
+            lula();
+        }
+
+        static void lula() 
+        {
+        for(int i = 0;i <= 10;i++){
+            Console.WriteLine("TE AMO <3!!!");
+        }
+        }
+    }
+}
