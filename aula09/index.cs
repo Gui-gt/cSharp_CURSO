@@ -937,3 +937,27 @@ namespace Program
         }
     }
 }
+using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main ()
+        {
+            int v1,v2;
+            v1=int.Parse(Console.ReadLine());
+            v2=int.Parse(Console.ReadLine());
+
+            soma(1,4);
+        }
+
+        static void soma()
+        {
+            int n1, n2,r=0;
+            
+            r = n1 + n2;
+            Console.WriteLine(r);
+        }
+    }
+}
