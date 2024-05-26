@@ -999,4 +999,17 @@ namespace Program
             Console.WriteLine(r);
         }
     }
+}using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main ()
+        {
+            int[] num = new int[3]{11,22,33};
+
+            Console.WriteLine(num[1]);
+        }
+    }
 }
