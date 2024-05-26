@@ -840,3 +840,19 @@ namespace Program
         }
     }
 }
+using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main ()
+        {
+            int n1 = 1, n2 = 3, soma = 0;
+
+            soma = n1 + n2;
+
+            Console.WriteLine("{0} + {1} = {2}",n1,n2,soma);
+        }
+    }
+}
