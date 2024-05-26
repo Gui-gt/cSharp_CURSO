@@ -94,3 +94,18 @@ namespace Program
         }
     }
 }
+using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main ()
+        {
+            for(int n = 10;n >= 5;n--){
+                Console.WriteLine("Faça!");
+                
+            }
+        }
+    }
+}
