@@ -981,3 +981,22 @@ namespace Program
         }
     }
 }
+using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main ()
+        {
+            soma(10,50);
+        }
+        static void soma(int n1, int n2)
+
+        {
+            int r = n1 + n2;
+
+            Console.WriteLine(r);
+        }
+    }
+}
