@@ -828,3 +828,15 @@ namespace program
         }
     }
 }
+using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main ()
+        {
+            Console.WriteLine("Deus é amor!!!");
+        }
+    }
+}
