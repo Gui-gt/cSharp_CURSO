@@ -94,28 +94,3 @@ namespace Program
         }
     }
 }
-// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-Console.WriteLine("deixa o cara gozar");
-using System;
-
-using System;
-
-namespace Program
-{
-    public class Program
-    {
-        static void Main ()
-        {
-            soma(5,4);
-        }
-
-        static void soma(int n1, int n2)
-        {
-            int r = n1 + n2;
-            
-            r = n1 + n2;
-            Console.WriteLine(r);
-        }
-    }
-}
