@@ -856,3 +856,64 @@ namespace Program
         }
     }
 }
+using System;
+
+namespace Program
+{
+    public class Program
+    {
+        static void Main ()
+        {
+            char escolha;
+            int tempo = 0;
+
+            inicio:
+
+            Console.WriteLine("<<< Viagem de Rolândia para Londrina >>>");
+            Console.WriteLine("escolha seu meio de transporte: ");
+            Console.WriteLine("a) CARRO");
+            Console.WriteLine("b) MOTO");
+            escolha = char.Parse(Console.ReadLine());
+
+            switch (escolha)
+            {
+
+                case'A':
+                case'a':
+                tempo = 50;
+                break;
+
+                case'B':
+                case'b':
+                tempo = 100;
+                break;
+                
+                default:
+
+                tempo = 0;
+
+                break;
+            }
+
+            if(tempo == 50){
+                Console.WriteLine("Voçê escolheu ir de carro, cerca de 50 minutos!");
+            }
+            else if(tempo == 100){
+                Console.WriteLine("Voçê escolheu ir de moto, cerca de 100 minutos!");
+            }
+
+            Console.WriteLine("Voçê deseja continuar?");
+            Console.WriteLine("SIM OU NÃO?");
+            escolha = char.Parse(Console.ReadLine());
+
+            if(escolha == 's' || escolha == 'S'){
+                Console.Clear();
+                goto inicio;
+            }
+            else if(escolha == 'N' || escolha == 'n'){
+                Console.WriteLine("FIM DO PROGRAMA!");
+                Console.Clear();
+            }
+        }
+    }
+}
