@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cSharp_CURSO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ff625b5fe4df447ddd0229b5335637a47be97d6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2124c5c52c3fa7559c95afc0ae5fb01d2d0cb55")]
 [assembly: System.Reflection.AssemblyProductAttribute("cSharp_CURSO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cSharp_CURSO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
